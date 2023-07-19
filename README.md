@@ -5,7 +5,7 @@ Grounded Situation Recognition Meets Segment Anything for Helping People with Vi
 ```
 # Clone this repository and navigate into the repository
 git clone https://github.com/RuipingL/OpenSU.git    
-cd CoFormer                                          
+cd OpenSU                                          
 
 # Create a conda environment, activate the environment and install PyTorch via conda
 conda create --name OpenSU python=3.9              
