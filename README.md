@@ -1,4 +1,4 @@
-# Open Scene Understanding
+# Open Scene Understanding [[arxiv](https://arxiv.org/abs/2307.07757)]
 Grounded Situation Recognition Meets Segment Anything for Helping People with Visual Impairments
 ![My Image](img/Flowchart.png)
 ## Environment
