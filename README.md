@@ -18,3 +18,17 @@ pip install -r requirements.txt
 # Install Segment Anything
 pip install git+https://github.com/facebookresearch/segment-anything.git
 ```
+## Training 
+```
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node=4 --use_env main.py   --batch_size 4 --dataset_file swig --epochs 40 --num_workers 4 --num_glance_enc_layers 3 --num_gaze_s1_dec_layers 3 --num_gaze_s1_enc_layers 3 --num_gaze_s2_dec_layers 3 --dropout 0.15 --hidden_dim 512 --output_dir OpenSU
+```
+## Evaluation
+```
+python main.py --saved_model ckpt/OpenSU_Swin.pth --output_dir CoFormer --dev
+python main.py --saved_model ckpt/OpenSU_Swin.pth --output_dir CoFormer --test
+```
+## Demo
+```
+python demo.py --image_path img/carting_214.jpg --sam sam
+python demo.py --image_path img/carting_214.jpg --sam mobilesam
+```
