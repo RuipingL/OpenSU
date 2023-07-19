@@ -38,7 +38,7 @@ python main.py --saved_model ckpt/OpenSU_Swin.pth --output_dir CoFormer --test
 python demo.py --image_path img/carting_214.jpg --sam sam
 python demo.py --image_path img/carting_214.jpg --sam mobilesam
 ```
-Output
+Output:
 ```
 # Text information
 verb: carting 
@@ -48,3 +48,4 @@ role: tool, noun: cart.n.01
 role: place, noun: outdoors.n.01 
 the dog cartes the man in a cart at a outdoors.
 ```
+![My image](img/carting_214_sam.jpg)
