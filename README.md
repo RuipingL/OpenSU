@@ -30,8 +30,8 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 ```
 ## Evaluation
 ```
-python main.py --saved_model ckpt/OpenSU_Swin.pth --output_dir CoFormer --dev  # Evaluation on develpment set
-python main.py --saved_model ckpt/OpenSU_Swin.pth --output_dir CoFormer --test # Evaluation on test set
+python main.py --saved_model ckpt/OpenSU_Swin.pth --output_dir OpenSU_eva --dev  # Evaluation on develpment set
+python main.py --saved_model ckpt/OpenSU_Swin.pth --output_dir OpenSU_eva --test # Evaluation on test set
 ```
 ## Demo
 ```
