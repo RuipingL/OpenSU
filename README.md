@@ -30,12 +30,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m torch.distributed.launch --nproc_per_node
 ```
 ## Evaluation
 ```
-python main.py --saved_model ckpt/OpenSU_Swin.pth --output_dir CoFormer --dev # Evaluation on develpment set
+python main.py --saved_model ckpt/OpenSU_Swin.pth --output_dir CoFormer --dev  # Evaluation on develpment set
 python main.py --saved_model ckpt/OpenSU_Swin.pth --output_dir CoFormer --test # Evaluation on test set
 ```
 ## Demo
 ```
-python demo.py --image_path img/carting_214.jpg --sam sam # Using vanilla Segment Anything as segmentation map generator
+python demo.py --image_path img/carting_214.jpg --sam sam       # Using vanilla Segment Anything as segmentation map generator
 python demo.py --image_path img/carting_214.jpg --sam mobilesam # Using MobileSAM as segmentation map generator
 ```
 Output:
