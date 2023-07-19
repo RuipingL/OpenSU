@@ -14,4 +14,7 @@ conda install pytorch==1.8.0 torchvision==0.9.0 cudatoolkit=11.1 -c pytorch -c c
 
 # Install requirements via pip
 pip install -r requirements.txt
+
+# Install Segment Anything
+pip install git+https://github.com/facebookresearch/segment-anything.git
 ```
