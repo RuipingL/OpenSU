@@ -48,4 +48,4 @@ role: tool, noun: cart.n.01
 role: place, noun: outdoors.n.01 
 the dog cartes the man in a cart at a outdoors.
 ```
-![My image](img/carting_214_sam.jpg)
+![My image](img/carting_214_sam.jpg| width=100)
