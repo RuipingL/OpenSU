@@ -4,6 +4,7 @@ Grounded Situation Recognition Meets Segment Anything for Helping People with Vi
 <p align="center">
   <img src="https://github.com/RuipingL/OpenSU/blob/main/img/comparison.png" width="600">
 </p>
+
 ## Environment
 ```
 # Clone this repository and navigate into the repository
