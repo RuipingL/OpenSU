@@ -55,6 +55,8 @@ the dog cartes the man in a cart at a outdoors.
 <img src="https://github.com/RuipingL/OpenSU/blob/main/img/carting_214_sam.jpg" width="300">
 
 ## Citation
+Our system is built upon the framework of [CoFormer](https://arxiv.org/abs/2203.16518).
+If you use our OpenSU, please cite
 ```
 @article{liu2023open,
   title={Open Scene Understanding: Grounded Situation Recognition Meets Segment Anything for Helping People with Visual Impairments},
