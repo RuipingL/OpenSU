@@ -58,10 +58,10 @@ the dog cartes the man in a cart at a outdoors.
 Our system is built upon the framework of [CoFormer](https://arxiv.org/abs/2203.16518).
 If you use our OpenSU, please cite
 ```
-@article{liu2023open,
+@inproceedings{liu2023opensu,
   title={Open Scene Understanding: Grounded Situation Recognition Meets Segment Anything for Helping People with Visual Impairments},
   author={Liu, Ruiping and Zhang, Jiaming and Peng, Kunyu and Zheng, Junwei and Cao, Ke and Chen, Yufan and Yang, Kailun and Stiefelhagen, Rainer},
-  journal={arXiv preprint arXiv:2307.07757},
+  booktitle={2023 IEEE/CVF International Conference on Computer Vision Workshops (ICCVW)},
   year={2023}
 }
 ```
