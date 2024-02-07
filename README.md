@@ -1,5 +1,7 @@
 # Open Scene Understanding (ICCV ACVR 2023)
-Grounded Situation Recognition Meets Segment Anything for Helping People with Visual Impairments [[arxiv](https://arxiv.org/abs/2307.07757)] 
+
+### Grounded Situation Recognition Meets Segment Anything for Helping People with Visual Impairments [[PDF](https://arxiv.org/pdf/2307.07757)] 
+
 ![My Image](img/Flowchart.png)
 <p align="center">
   <img src="https://github.com/RuipingL/OpenSU/blob/main/img/comparison.png" width="600">
